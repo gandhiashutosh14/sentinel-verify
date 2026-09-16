@@ -1,0 +1,152 @@
+{
+  "2.0": {
+    "decision-voi": {
+      "mean_loss_per_tick": 181.59025,
+      "loss_stdev_across_seeds": 15.710476637820385,
+      "wrong_action_rate": 0.23215,
+      "final_wrong_action_rate": 0.2535,
+      "verifications_per_run": 322.3,
+      "spend_per_run": 400.0
+    },
+    "entropy-voi": {
+      "mean_loss_per_tick": 252.49975,
+      "loss_stdev_across_seeds": 18.763987281159086,
+      "wrong_action_rate": 0.283245,
+      "final_wrong_action_rate": 0.3295,
+      "verifications_per_run": 400.0,
+      "spend_per_run": 400.0
+    },
+    "score-sorted": {
+      "mean_loss_per_tick": 316.3265,
+      "loss_stdev_across_seeds": 22.42068063752748,
+      "wrong_action_rate": 0.335395,
+      "final_wrong_action_rate": 0.40525,
+      "verifications_per_run": 200.0,
+      "spend_per_run": 400.0
+    },
+    "oldest-first": {
+      "mean_loss_per_tick": 194.83975,
+      "loss_stdev_across_seeds": 13.378780351268945,
+      "wrong_action_rate": 0.2593775,
+      "final_wrong_action_rate": 0.2395,
+      "verifications_per_run": 360.0,
+      "spend_per_run": 400.0
+    },
+    "random": {
+      "mean_loss_per_tick": 218.64025,
+      "loss_stdev_across_seeds": 14.950435735706836,
+      "wrong_action_rate": 0.2712175,
+      "final_wrong_action_rate": 0.27725,
+      "verifications_per_run": 360.45,
+      "spend_per_run": 400.0
+    },
+    "never": {
+      "mean_loss_per_tick": 322.5355,
+      "loss_stdev_across_seeds": 20.74113418427257,
+      "wrong_action_rate": 0.34185875,
+      "final_wrong_action_rate": 0.41475,
+      "verifications_per_run": 0.0,
+      "spend_per_run": 0.0
+    }
+  },
+  "5.0": {
+    "decision-voi": {
+      "mean_loss_per_tick": 161.928,
+      "loss_stdev_across_seeds": 11.747900493279637,
+      "wrong_action_rate": 0.19004625,
+      "final_wrong_action_rate": 0.20350000000000001,
+      "verifications_per_run": 647.45,
+      "spend_per_run": 1000.0
+    },
+    "entropy-voi": {
+      "mean_loss_per_tick": 170.586,
+      "loss_stdev_across_seeds": 13.661518912624615,
+      "wrong_action_rate": 0.21415875,
+      "final_wrong_action_rate": 0.25,
+      "verifications_per_run": 1000.0,
+      "spend_per_run": 1000.0
+    },
+    "score-sorted": {
+      "mean_loss_per_tick": 305.209,
+      "loss_stdev_across_seeds": 24.60364412033307,
+      "wrong_action_rate": 0.32366375000000003,
+      "final_wrong_action_rate": 0.39025,
+      "verifications_per_run": 600.0,
+      "spend_per_run": 1000.0
+    },
+    "oldest-first": {
+      "mean_loss_per_tick": 130.49200000000002,
+      "loss_stdev_across_seeds": 6.731469638942153,
+      "wrong_action_rate": 0.18726749999999998,
+      "final_wrong_action_rate": 0.1975,
+      "verifications_per_run": 840.0,
+      "spend_per_run": 1000.0
+    },
+    "random": {
+      "mean_loss_per_tick": 165.19725,
+      "loss_stdev_across_seeds": 10.38612613959122,
+      "wrong_action_rate": 0.22044375,
+      "final_wrong_action_rate": 0.23199999999999998,
+      "verifications_per_run": 857.55,
+      "spend_per_run": 1000.0
+    },
+    "never": {
+      "mean_loss_per_tick": 322.5355,
+      "loss_stdev_across_seeds": 20.74113418427257,
+      "wrong_action_rate": 0.34185875,
+      "final_wrong_action_rate": 0.41475,
+      "verifications_per_run": 0.0,
+      "spend_per_run": 0.0
+    }
+  },
+  "10.0": {
+    "decision-voi": {
+      "mean_loss_per_tick": 116.40425,
+      "loss_stdev_across_seeds": 7.109727012164391,
+      "wrong_action_rate": 0.1361225,
+      "final_wrong_action_rate": 0.14550000000000002,
+      "verifications_per_run": 1302.35,
+      "spend_per_run": 2000.0
+    },
+    "entropy-voi": {
+      "mean_loss_per_tick": 129.028,
+      "loss_stdev_across_seeds": 10.820546589706085,
+      "wrong_action_rate": 0.17563625,
+      "final_wrong_action_rate": 0.18,
+      "verifications_per_run": 1836.85,
+      "spend_per_run": 2000.0
+    },
+    "score-sorted": {
+      "mean_loss_per_tick": 322.26875,
+      "loss_stdev_across_seeds": 19.756552575980958,
+      "wrong_action_rate": 0.33021124999999996,
+      "final_wrong_action_rate": 0.40525,
+      "verifications_per_run": 1000.0,
+      "spend_per_run": 2000.0
+    },
+    "oldest-first": {
+      "mean_loss_per_tick": 103.332,
+      "loss_stdev_across_seeds": 5.573956718525898,
+      "wrong_action_rate": 0.141285,
+      "final_wrong_action_rate": 0.13799999999999998,
+      "verifications_per_run": 1680.0,
+      "spend_per_run": 2000.0
+    },
+    "random": {
+      "mean_loss_per_tick": 118.24075,
+      "loss_stdev_across_seeds": 9.640611660444579,
+      "wrong_action_rate": 0.166065,
+      "final_wrong_action_rate": 0.1585,
+      "verifications_per_run": 1692.7,
+      "spend_per_run": 2000.0
+    },
+    "never": {
+      "mean_loss_per_tick": 322.5355,
+      "loss_stdev_across_seeds": 20.74113418427257,
+      "wrong_action_rate": 0.34185875,
+      "final_wrong_action_rate": 0.41475,
+      "verifications_per_run": 0.0,
+      "spend_per_run": 0.0
+    }
+  }
+}
