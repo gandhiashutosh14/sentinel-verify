@@ -1,0 +1,16 @@
+{
+  "name": "field (synthetic compliance claims with costly visits)",
+  "description": "Invented world modelled loosely on field verification of compliance claims: a visit is expensive, a false accusation (acting on a compliant plot) costs more than a missed problem in this loss table, and satellite-style feed evidence arrives often but is only moderately accurate. Nothing here describes a real programme.",
+  "classes": [
+    {"name": "plot", "prior_alpha": 1.5, "prior_beta": 8.5, "decay_rate": 0.01,
+     "loss_act_when_false": 8.0, "loss_accept_when_true": 5.0, "verify_cost": 4.0,
+     "verify_sensitivity": 0.9, "verify_specificity": 0.98, "feed_weight": 0.2},
+    {"name": "supplier", "prior_alpha": 2.0, "prior_beta": 4.0, "decay_rate": 0.03,
+     "loss_act_when_false": 6.0, "loss_accept_when_true": 9.0, "verify_cost": 3.0,
+     "verify_sensitivity": 0.9, "verify_specificity": 0.95, "feed_weight": 0.2}
+  ],
+  "counts": {"plot": 150, "supplier": 30},
+  "flip_rate": {"plot": 0.004, "supplier": 0.02},
+  "feed_rate": 10.0,
+  "feed_accuracy": 0.7
+}

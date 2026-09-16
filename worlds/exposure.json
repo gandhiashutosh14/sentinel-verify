@@ -1,0 +1,16 @@
+{
+  "name": "exposure (synthetic attack-surface findings)",
+  "description": "Invented world modelled loosely on external attack-surface findings: many low-prior hostname findings that rarely change, and fewer service findings that change often. Acting on a false finding wastes an analyst hour; accepting a true one is expensive. Nothing here describes a real network.",
+  "classes": [
+    {"name": "hostname", "prior_alpha": 1.0, "prior_beta": 9.0, "decay_rate": 0.02,
+     "loss_act_when_false": 1.0, "loss_accept_when_true": 6.0, "verify_cost": 1.0,
+     "verify_sensitivity": 0.95, "verify_specificity": 0.97, "feed_weight": 0.3},
+    {"name": "service", "prior_alpha": 2.0, "prior_beta": 6.0, "decay_rate": 0.08,
+     "loss_act_when_false": 2.0, "loss_accept_when_true": 10.0, "verify_cost": 2.0,
+     "verify_sensitivity": 0.9, "verify_specificity": 0.95, "feed_weight": 0.3}
+  ],
+  "counts": {"hostname": 160, "service": 40},
+  "flip_rate": {"hostname": 0.005, "service": 0.03},
+  "feed_rate": 6.0,
+  "feed_accuracy": 0.8
+}
