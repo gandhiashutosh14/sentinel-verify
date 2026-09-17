@@ -1,6 +1,6 @@
 # SENTINEL simulation: exposure (synthetic attack-surface findings)
 
-Generated 2026-09-16 22:52 UTC at revision 27035d8 with `sentinel simulate --world worlds/exposure.json --budgets 2 5 10 --ticks 200 --seeds 20 --out reports/exposure.md`.
+Generated 2026-09-16 22:52 UTC at revision 7337167 with `sentinel simulate --world worlds/exposure.json --budgets 2 5 10 --ticks 200 --seeds 20 --out reports/exposure.md`.
 
 Invented world modelled loosely on external attack-surface findings: many low-prior hostname findings that rarely change, and fewer service findings that change often. Acting on a false finding wastes an analyst hour; accepting a true one is expensive. Nothing here describes a real network.
 

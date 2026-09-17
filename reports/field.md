@@ -1,6 +1,6 @@
 # SENTINEL simulation: field (synthetic compliance claims with costly visits)
 
-Generated 2026-09-16 22:53 UTC at revision 27035d8 with `sentinel simulate --world worlds/field.json --budgets 4 12 24 --ticks 200 --seeds 20 --out reports/field.md`.
+Generated 2026-09-16 22:53 UTC at revision 7337167 with `sentinel simulate --world worlds/field.json --budgets 4 12 24 --ticks 200 --seeds 20 --out reports/field.md`.
 
 Invented world modelled loosely on field verification of compliance claims: a visit is expensive, a false accusation (acting on a compliant plot) costs more than a missed problem in this loss table, and satellite-style feed evidence arrives often but is only moderately accurate. Nothing here describes a real programme.
 
